@@ -18,14 +18,20 @@
   </head>
 
   <body>
+
+    <div class="container">
+      <div class="jumbotron" id="jumbotronlogo">
+        <img src="./img/Logo.png" onclick="openPage('PORTFOLIO', this, 'light grey')">
+      </div>   
+    </div>
     <!--############################### Start Tabs ################################################-->
     <!-- This block of code will trigger when you click the tabs -->
     <!-- It will then trigger the javascript function: openPage() -->
     <!-- use id="defaultOpen" to specify which tab starts first -->
     <button class="tablink" onclick="openPage('BIO', this, 'light grey')">BIO</button>
     <button class="tablink" onclick="openPage('INTERVIEW', this, 'light grey')">INTERVIEW</button>
-    <button class="tablink" onclick="openPage('PORTFOLIO', this, 'light grey')" >
-      <img class="logo" src="./img/Logo.png"> 
+    <button class="tablink" onclick="openPage('PORTFOLIO', this, 'light grey')" > Portfolio
+  <!--    <img class="logo" src="./img/Logo.png">  -->
     </button>
     <button class="tablink" onclick="openPage('SLIDESHOW', this, 'light grey')" id="defaultOpen">SLIDESHOW</button>
     <button class="tablink" onclick="openPage('NEWS', this, 'light grey')">NEWS</button>
@@ -88,7 +94,7 @@
     <!-- This block of codes are for the 1st level, 4rd tab -->
     <div id="SLIDESHOW" class="tabcontent1">
       <div class="container">
-        <div class="jumbotron">
+        <div class="jumbotron" id="Jumbotrontransparent">
           <h1>OdiJinPhotography</h1>      
           <p>Boston Website & Commercial</p>
         </div>   

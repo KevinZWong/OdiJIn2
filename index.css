@@ -69,7 +69,7 @@ body, html {
 
 
 
-.jumbotron{
+#Jumbotrontransparent{
   background-color: transparent;
 }
 
@@ -173,6 +173,12 @@ div.transbox{
   color: #000000;
 }
 
-.logo{
-  height: 25px;
+#jumbotronlogo{
+  height: 100px;
+  padding: 10px;
+  margin-left: -37.5%;
+  background-color: #555555;
+  margin-right: -35%;
+  padding-left: 0%;
+  margin-bottom: -20px;
 }
